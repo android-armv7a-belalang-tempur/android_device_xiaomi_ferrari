@@ -1,22 +1,22 @@
 [
   {
-    "repository": "android_vendor_xiaomi_ferrari",
+    "repository": "android_vendor_xiaomi_ferrari-mr",
     "target_path": "vendor/xiaomi/ferrari"
   },
   {
-    "repository": "android_kernel_xiaomi_ferrari",
+    "repository": "android_kernel_xiaomi_ferrari-mr",
     "target_path": "kernel/xiaomi/ferrari"
   },
   {
-    "repository": "android_external_mm-dash",
+    "repository": "android_external_mm-dash-mr",
     "target_path": "external/mm-dash"
   },
   {
-    "repository": "android_hardware_qcom_fm",
+    "repository": "android_hardware_qcom_fm-mr",
     "target_path": "hardware/qcom/fm"
   },
   {
-    "repository": "android_device_qcom_common",
+    "repository": "android_device_qcom_common-mr",
     "target_path": "device/qcom/common"
   }
 ]
