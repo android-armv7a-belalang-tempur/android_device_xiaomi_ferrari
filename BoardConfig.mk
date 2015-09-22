@@ -134,7 +134,10 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD -DUSE_RIL_VERSION_10
 COMMON_GLOBAL_CPPFLAGS += -DNO_SECURE_DISCARD -DUSE_RIL_VERSION_10
 
 # MKHW
-BOARD_HARDWARE_CLASS := device/xiaomi/ferrari/mkhw
+BOARD_USES_MOKEE_HARDWARE := true
+BOARD_HARDWARE_CLASS += \
+                 device/xiaomi/ferrari/mkhw \
+                 hardware/mokee
 
 # FM
 TARGET_QCOM_NO_FM_FIRMWARE := true
